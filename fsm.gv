@@ -4,9 +4,9 @@ digraph finite_state_machine
 {
     
     //rankdir=LR;
-    size="7.3, 11.3"
+    size="7.3, 11.2"
     ratio= "compress"  
-    page="8.5,11"
+    page="8.3,11.7"
     #sccmap
     #unflatten
     #gvpr
