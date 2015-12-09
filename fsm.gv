@@ -107,10 +107,7 @@ digraph finite_state_machine
 			S_NUMBER, NOT//, NONOVE
 	}
 
-	{
-		rank=same //layer
-			ESCAPE_X2, ESCAPE_X1 //, NOVE
-	}
+	
 	
 	{ 	rank=min END_OF_FILE }
 	{ 
