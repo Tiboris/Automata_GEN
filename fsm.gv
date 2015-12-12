@@ -28,7 +28,7 @@ digraph finite_state_machine
 
 	# definition of connections between nodes
 	S_START -> S_START							[ label = "\'[\\\ \\n\\t]\'" , fontsize = 24 ];		
-		S_START -> NOT							[ label = "\'[!]\'" , fontsize = 25 ];
+		S_START -> NOT							[ label = "\'[\\!]\'" , fontsize = 25 ];
 			NOT -> NOT_EQUAL					[ label = "\'[=]\'" , fontsize = 25  ];
 			NOT -> NOT							[ label = "\'ELSE\'" , fontsize = 24 ];
 		S_START -> R_ARROW						[ label = "\'[>]\'" , fontsize = 25 ];
@@ -47,8 +47,8 @@ digraph finite_state_machine
 		DIV_OR_COMM -> LINE_COMM				[ label = "\'[/]\'" , fontsize = 25  ];
 			LINE_COMM -> LINE_COMM 				[ label = "\'ELSE\'", fontsize = 24  ];
 			LINE_COMM -> S_START				[ label = "\'[\\n]\'" , fontsize = 25  ];
-		DIV_OR_COMM -> BLOCK_COMM				[ label = "\'[*]\'" , fontsize = 25  ];
-			BLOCK_COMM -> END_BLOCK_COMM		[ label = "\'[*]\'" , fontsize = 25  ];
+		DIV_OR_COMM -> BLOCK_COMM				[ label = "\'[\\*]\'" , fontsize = 25  ];
+			BLOCK_COMM -> END_BLOCK_COMM		[ label = "\'[\\*]\'" , fontsize = 25  ];
 			BLOCK_COMM -> BLOCK_COMM 			[ label = "\'ELSE\'", fontsize = 24  ];
 				END_BLOCK_COMM -> S_START		[ label = "\''[/]'\'" , fontsize = 25  ];
 			END_BLOCK_COMM -> BLOCK_COMM 		[ label = "\'ELSE\'", fontsize = 24  ];
@@ -62,34 +62,34 @@ digraph finite_state_machine
 					ESCAPE_X1 -> ERR 			[ label = "\'ELSE\'" , fontsize = 24 ];
 						ESCAPE_X2 -> S_STRING   [ label = "\'[A-z]\'" , fontsize = 24 ];
 						ESCAPE_X2 -> ERR 		[ label = "\'ELSE\'" , fontsize = 24 ];	
-			S_STRING -> E_STRING				[ label = "\'[\"]\'" , fontsize = 25 ];
+			S_STRING -> E_STRING				[ label = "\'[\\\"]\'" , fontsize = 25 ];
 		S_START -> EQ_OR_ASIGNMENT				[ label = "\'[=]\'", fontsize = 25 ];
 			EQ_OR_ASIGNMENT -> ASIGNMENT_SMBL	[ label = "\'ELSE\'" , fontsize = 24 ];
 			EQ_OR_ASIGNMENT -> EQUAL_SMBL		[ label = "\'[=]\'", fontsize = 25  ];
 	S_START -> ERR								[ label = "\'ELSE\'" , fontsize = 24 ];
 	S_START -> COMMA_SMBL						[ label = "\'[,]\'", fontsize = 25   ];
 	S_START -> END_OF_FILE						[ label = "\'EOF\'", fontsize = 24 ];
-	S_START -> PLUS_SMBL						[ label = "\'[+]\'" , fontsize = 25  ];
+	S_START -> PLUS_SMBL						[ label = "\'[\\+]\'" , fontsize = 25  ];
 	S_START -> MINUS_SMBL						[ label = "\'[-]\'", fontsize = 25   ];
-	S_START -> LEFT_VIN_COLUMN_SMBL				[ label = "\'[{]\'" , fontsize = 25 ];
-	S_START -> RIGHT_VIN_COLUMN_SMBL			[ label = "\'[}]\'" , fontsize = 25 ];	
+	S_START -> LEFT_VIN_COLUMN_SMBL				[ label = "\'[\\{]\'" , fontsize = 25 ];
+	S_START -> RIGHT_VIN_COLUMN_SMBL			[ label = "\'[\\}]\'" , fontsize = 25 ];	
 	S_START -> S_STRING 						[ label = "\'[\"]\'" , fontsize = 25 ];
-	S_START -> RIGHT_COLUMN_SMBL				[ label = "\'[)]\'" , fontsize = 25 ];
-	S_START -> LEFT_COLUMN_SMBL					[ label = "\'[(]\'" , fontsize = 25 ];
+	S_START -> RIGHT_COLUMN_SMBL				[ label = "\'[\\)]\'" , fontsize = 25 ];
+	S_START -> LEFT_COLUMN_SMBL					[ label = "\'[\\(]\'" , fontsize = 25 ];
 	S_START -> DIV_OR_COMM						[ label = "\'[/]\'", fontsize = 25  ];
-	S_START -> MULTIPLY_SMBL					[ label = "\'[*]\'" , fontsize = 25 ];
+	S_START -> MULTIPLY_SMBL					[ label = "\'[\\*]\'" , fontsize = 25 ];
 	S_START -> SEMICOLON_SMBL					[ label = "\'[;]\'", fontsize = 25  ];
 	S_START -> S_NUMBER 						[ label = "\'[0-9]\'" , fontsize = 24 ];
 		S_NUMBER -> S_NUMBER					[ label = "\'[0-9]\'" , fontsize = 24 ];
-		S_NUMBER -> END_NUMBER					[ label = "\'Σ-[.eE]\'" , fontsize = 24 ];	//&#931;U+03A3
+		S_NUMBER -> END_NUMBER					[ label = "\'Σ-[\\.eE]\'" , fontsize = 24 ];	//&#931;U+03A3
 		S_NUMBER -> EXPONENT					[ label = "\'[eE]\'", fontsize = 24  ];
-		S_NUMBER -> D_NUMBER					[ label = "\'[.]\'" fontsize = 25 ];
+		S_NUMBER -> D_NUMBER					[ label = "\'[\\.]\'" fontsize = 25 ];
 			D_NUMBER -> FRAC_NUMBER				[ label = "\'[0-9]\'" , fontsize = 24 ];
 			D_NUMBER -> ERR						[ label = "\'ELSE\'" , fontsize = 24 ];    
 			FRAC_NUMBER -> FRAC_NUMBER			[ label = "\'[0-9]\'", fontsize = 24 ];
 			FRAC_NUMBER -> END_DOUBLE			[ label = "\'Σ-[0-9eE]\'" , fontsize = 24 ];
 			FRAC_NUMBER -> EXPONENT				[ label = "\'[eE]\'" , fontsize = 24 ];
-				EXPONENT -> FEX_NUMBER			[ label = "\'[\\\-+0-9]\'", fontsize = 24  ];
+				EXPONENT -> FEX_NUMBER			[ label = "\'[\\+-0-9]\'", fontsize = 24  ];
 				EXPONENT -> ERR					[ label = "\'ELSE\'" , fontsize = 24 ];
 					FEX_NUMBER -> FEX_NUMBER	[ label = "\'[0-9]\'" , fontsize = 24 ];
 					FEX_NUMBER -> END_DOUBLE	[ label = "\'ELSE\'" , fontsize = 24 ];		
