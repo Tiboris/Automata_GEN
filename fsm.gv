@@ -4,25 +4,25 @@ digraph finite_state_machine
 	########################################################################################################################
 	# page and drawing settings
 	fixedsize="true";
-    page="11.6,8.3";
-    size="11.5,7.3";
-    ratio= "compress";
-    overlap="false";
-    # type of node definition
-    node [shape = point ]; bod; 
-    node [shape = doublecircle, fontsize = 23, color  = blue, width = 3 ];S_START;
-    node [shape = doublecircle, fontsize = 26, color  = red, width = 2 ];ERR;
+	page="11.6,8.3";
+	size="11.5,7.3";
+	ratio= "compress";
+	overlap="false";
+	# type of node definition
+	node [shape = point ]; bod; 
+	node [shape = doublecircle, fontsize = 23, color  = blue, width = 3 ];S_START;
+	node [shape = doublecircle, fontsize = 26, color  = red, width = 2 ];ERR;
 	# type of multiple nodes definition
-    node [shape = doublecircle, fontsize = 15, color  = green, width = 1.2 ];{
-    												SEMICOLON_SMBL, LEFT_COLUMN_SMBL, RIGHT_COLUMN_SMBL,
-    												LEFT_VIN_COLUMN_SMBL, RIGHT_VIN_COLUMN_SMBL, COMMA_SMBL,
-    												PLUS_SMBL, MINUS_SMBL, MULTIPLY_SMBL, END_DOUBLE, END_NUMBER,
-       												END_OF_FILE, END_KW_OR_ID, LESS_SMBL, LESS_EQUAL,
-    												DOUBLE_R_ARR, DOUBLE_L_ARR,	MORE_SMBL, MORE_EQUAL, NOT,
-    												E_STRING, ASIGNMENT_SMBL,	EQUAL_SMBL,DIVIDE_SMBL, NOT_EQUAL
-    											};
+	node [shape = doublecircle, fontsize = 15, color  = green, width = 1.2 ];{
+													SEMICOLON_SMBL, LEFT_COLUMN_SMBL, RIGHT_COLUMN_SMBL,
+													LEFT_VIN_COLUMN_SMBL, RIGHT_VIN_COLUMN_SMBL, COMMA_SMBL,
+													PLUS_SMBL, MINUS_SMBL, MULTIPLY_SMBL, END_DOUBLE, END_NUMBER,
+													END_OF_FILE, END_KW_OR_ID, LESS_SMBL, LESS_EQUAL,
+													DOUBLE_R_ARR, DOUBLE_L_ARR,	MORE_SMBL, MORE_EQUAL, NOT,
+													E_STRING, ASIGNMENT_SMBL,	EQUAL_SMBL,DIVIDE_SMBL, NOT_EQUAL
+												};
 	#other nodes definition		
-    node [rank=max, shape = circle , fontsize = 14, color =black, width = 1 ]; 
+	node [rank=max, shape = circle , fontsize = 14, color =black, width = 1 ]; 
 
 ########################################################################################################################
 
