@@ -204,9 +204,9 @@
 </g>
 <!-- S_START&#45;&gt;KW_OR_ID -->
 <g id="edge13" class="edge"><title>S_START&#45;&gt;KW_OR_ID</title>
-<path fill="none" stroke="black" d="M969.569,-1302.08C881.041,-1272.15 753.696,-1223.06 653,-1160 456.836,-1037.15 263.086,-836.97 184.541,-751.623"/>
-<polygon fill="black" stroke="black" points="187.086,-749.219 177.748,-744.214 181.927,-753.95 187.086,-749.219"/>
-<text text-anchor="middle" x="496" y="-997.8" font-family="Times,serif" font-size="24.00">&#39;[A&#45;z_]&#39;</text>
+<path fill="none" stroke="black" d="M969.671,-1301.79C881.605,-1271.76 755.131,-1222.69 655,-1160 458.384,-1036.9 263.69,-836.858 184.737,-751.584"/>
+<polygon fill="black" stroke="black" points="187.262,-749.159 177.908,-744.182 182.117,-753.905 187.262,-749.159"/>
+<text text-anchor="middle" x="497" y="-997.8" font-family="Times,serif" font-size="24.00">&#39;[A&#45;z_]&#39;</text>
 </g>
 <!-- DIV_OR_COMM -->
 <g id="node32" class="node"><title>DIV_OR_COMM</title>
@@ -221,13 +221,13 @@
 </g>
 <!-- S_STRING -->
 <g id="node36" class="node"><title>S_STRING</title>
-<ellipse fill="none" stroke="black" cx="536" cy="-912" rx="42.3181" ry="42.4244"/>
-<text text-anchor="middle" x="536" y="-908.3" font-family="Times,serif" font-size="14.00">S_STRING</text>
+<ellipse fill="none" stroke="black" cx="539" cy="-912" rx="42.3181" ry="42.4244"/>
+<text text-anchor="middle" x="539" y="-908.3" font-family="Times,serif" font-size="14.00">S_STRING</text>
 </g>
 <!-- S_START&#45;&gt;S_STRING -->
 <g id="edge47" class="edge"><title>S_START&#45;&gt;S_STRING</title>
-<path fill="none" stroke="black" d="M978.782,-1281.11C923.12,-1248.64 853.031,-1204.98 795,-1160 708.814,-1093.2 619.08,-1001.91 571.164,-951.102"/>
-<polygon fill="black" stroke="black" points="573.519,-948.497 564.121,-943.606 568.417,-953.29 573.519,-948.497"/>
+<path fill="none" stroke="black" d="M978.683,-1281.24C922.989,-1248.81 852.9,-1205.15 795,-1160 709.761,-1093.54 621.42,-1002.51 574.057,-951.562"/>
+<polygon fill="black" stroke="black" points="576.456,-949.001 567.093,-944.043 571.32,-953.758 576.456,-949.001"/>
 <text text-anchor="middle" x="813.5" y="-1092" font-family="Times,serif" font-size="25.00">&#39;[&quot;]&#39;</text>
 </g>
 <!-- EQ_OR_ASIGNMENT -->
@@ -473,21 +473,21 @@
 </g>
 <!-- S_STRING&#45;&gt;ERR -->
 <g id="edge27" class="edge"><title>S_STRING&#45;&gt;ERR</title>
-<path fill="none" stroke="black" d="M545.414,-870.454C547.717,-858.756 549.849,-845.93 551,-834 552.195,-821.613 551.214,-818.443 551,-806 549.666,-728.632 550.544,-709.18 545,-632 542.95,-603.459 539.878,-596.552 538,-568 528.664,-426.047 526.825,-260.567 526.676,-162.524"/>
+<path fill="none" stroke="black" d="M546.533,-870.377C548.375,-858.678 550.081,-845.87 551,-834 551.961,-821.593 551.214,-818.443 551,-806 549.666,-728.632 550.544,-709.18 545,-632 542.95,-603.459 539.878,-596.552 538,-568 528.664,-426.047 526.825,-260.567 526.676,-162.524"/>
 <polygon fill="black" stroke="black" points="530.176,-162.369 526.667,-152.372 523.176,-162.376 530.176,-162.369"/>
 <text text-anchor="middle" x="572" y="-489.8" font-family="Times,serif" font-size="24.00">&#39;ELSE&#39;</text>
 </g>
 <!-- S_STRING&#45;&gt;E_STRING -->
 <g id="edge36" class="edge"><title>S_STRING&#45;&gt;E_STRING</title>
-<path fill="none" stroke="black" d="M520.459,-872.672C515.944,-860.463 511.337,-846.801 508,-834 502.513,-812.95 498.251,-789.462 495.098,-768.697"/>
-<polygon fill="black" stroke="black" points="498.553,-768.131 493.639,-758.745 491.627,-769.147 498.553,-768.131"/>
-<text text-anchor="middle" x="529.5" y="-814" font-family="Times,serif" font-size="25.00">&#39;[\&quot;]&#39;</text>
+<path fill="none" stroke="black" d="M525.346,-871.671C521.415,-859.658 517.302,-846.356 514,-834 508.31,-812.708 503.064,-789.076 498.796,-768.263"/>
+<polygon fill="black" stroke="black" points="502.193,-767.403 496.782,-758.295 495.332,-768.79 502.193,-767.403"/>
+<text text-anchor="middle" x="532.5" y="-814" font-family="Times,serif" font-size="25.00">&#39;[&quot;]&#39;</text>
 </g>
 <!-- S_STRING&#45;&gt;S_STRING -->
 <g id="edge26" class="edge"><title>S_STRING&#45;&gt;S_STRING</title>
-<path fill="none" stroke="black" d="M574.664,-929.233C586.615,-928.885 596,-923.141 596,-912 596,-904.341 591.564,-899.232 584.908,-896.674"/>
-<polygon fill="black" stroke="black" points="585.136,-893.156 574.664,-894.767 583.855,-900.038 585.136,-893.156"/>
-<text text-anchor="middle" x="619.5" y="-905.8" font-family="Times,serif" font-size="24.00">&#39;[^&quot;]&#39;</text>
+<path fill="none" stroke="black" d="M577.664,-929.233C589.615,-928.885 599,-923.141 599,-912 599,-904.341 594.564,-899.232 587.908,-896.674"/>
+<polygon fill="black" stroke="black" points="588.136,-893.156 577.664,-894.767 586.855,-900.038 588.136,-893.156"/>
+<text text-anchor="middle" x="622.5" y="-905.8" font-family="Times,serif" font-size="24.00">&#39;[^&quot;]&#39;</text>
 </g>
 <!-- S_ESCAPE -->
 <g id="node37" class="node"><title>S_ESCAPE</title>
@@ -496,9 +496,9 @@
 </g>
 <!-- S_STRING&#45;&gt;S_ESCAPE -->
 <g id="edge28" class="edge"><title>S_STRING&#45;&gt;S_ESCAPE</title>
-<path fill="none" stroke="black" d="M494.121,-905.397C452.823,-897.4 391.83,-878.389 363,-834 348.788,-812.118 351.41,-783.361 358.105,-759.155"/>
-<polygon fill="black" stroke="black" points="361.498,-760.025 361.07,-749.439 354.803,-757.981 361.498,-760.025"/>
-<text text-anchor="middle" x="383" y="-814" font-family="Times,serif" font-size="25.00">&#39;[\\]&#39;</text>
+<path fill="none" stroke="black" d="M497.443,-905.094C456.849,-896.873 397.182,-877.704 369,-834 355.141,-812.508 356.173,-784.297 361.218,-760.314"/>
+<polygon fill="black" stroke="black" points="364.684,-760.865 363.594,-750.327 357.874,-759.245 364.684,-760.865"/>
+<text text-anchor="middle" x="389" y="-814" font-family="Times,serif" font-size="25.00">&#39;[\\]&#39;</text>
 </g>
 <!-- S_ESCAPE&#45;&gt;ERR -->
 <g id="edge30" class="edge"><title>S_ESCAPE&#45;&gt;ERR</title>
@@ -508,9 +508,9 @@
 </g>
 <!-- S_ESCAPE&#45;&gt;S_STRING -->
 <g id="edge29" class="edge"><title>S_ESCAPE&#45;&gt;S_STRING</title>
-<path fill="none" stroke="black" d="M392.322,-750.41C402.789,-775.901 418.689,-808.888 439,-834 454.009,-852.556 474.239,-869.497 492.34,-882.734"/>
-<polygon fill="black" stroke="black" points="490.309,-885.585 500.481,-888.548 494.377,-879.888 490.309,-885.585"/>
-<text text-anchor="middle" x="468.5" y="-814" font-family="Times,serif" font-size="25.00">&#39;[tn\\]&#39;</text>
+<path fill="none" stroke="black" d="M394.329,-749.671C406.187,-775.163 423.83,-808.435 445,-834 459.685,-851.733 478.933,-868.341 496.186,-881.561"/>
+<polygon fill="black" stroke="black" points="494.365,-884.57 504.466,-887.768 498.564,-878.969 494.365,-884.57"/>
+<text text-anchor="middle" x="474.5" y="-814" font-family="Times,serif" font-size="25.00">&#39;[tn\\]&#39;</text>
 </g>
 <!-- ESCAPE_X1 -->
 <g id="node38" class="node"><title>ESCAPE_X1</title>
@@ -548,8 +548,8 @@
 </g>
 <!-- ESCAPE_X2&#45;&gt;S_STRING -->
 <g id="edge34" class="edge"><title>ESCAPE_X2&#45;&gt;S_STRING</title>
-<path fill="none" stroke="black" d="M605.437,-335.516C607.188,-361.527 609.128,-394.547 610,-424 611.894,-487.972 620.252,-504.826 610,-568 608.649,-576.324 605.767,-577.754 604,-586 580.787,-694.321 612.254,-728.328 579,-834 575.445,-845.296 570.113,-856.795 564.403,-867.343"/>
-<polygon fill="black" stroke="black" points="561.192,-865.911 559.322,-876.339 567.287,-869.353 561.192,-865.911"/>
+<path fill="none" stroke="black" d="M605.437,-335.516C607.188,-361.527 609.128,-394.547 610,-424 611.894,-487.972 620.252,-504.826 610,-568 608.649,-576.324 605.767,-577.754 604,-586 580.787,-694.321 610.656,-727.838 579,-834 575.704,-845.054 570.801,-856.384 565.548,-866.836"/>
+<polygon fill="black" stroke="black" points="562.41,-865.283 560.872,-875.766 568.611,-868.53 562.41,-865.283"/>
 <text text-anchor="middle" x="635" y="-593.8" font-family="Times,serif" font-size="24.00">&#39;[A&#45;z]&#39;</text>
 </g>
 <!-- EQ_OR_ASIGNMENT&#45;&gt;ASIGNMENT_SMBL -->
