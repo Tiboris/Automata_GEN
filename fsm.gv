@@ -62,7 +62,7 @@ digraph finite_state_machine
 					ESCAPE_X1 -> ERR 			[ label = "\'ELSE\'" , fontsize = 24 ];
 						ESCAPE_X2 -> S_STRING   [ label = "\'[A-z]\'" , fontsize = 24 ];
 						ESCAPE_X2 -> ERR 		[ label = "\'ELSE\'" , fontsize = 24 ];	
-			S_STRING -> E_STRING				[ label = "\'[\\\"]\'" , fontsize = 25 ];
+			S_STRING -> E_STRING				[ label = "\'[\"]\'" , fontsize = 25 ];
 		S_START -> EQ_OR_ASIGNMENT				[ label = "\'[=]\'", fontsize = 25 ];
 			EQ_OR_ASIGNMENT -> ASIGNMENT_SMBL	[ label = "\'ELSE\'" , fontsize = 24 ];
 			EQ_OR_ASIGNMENT -> EQUAL_SMBL		[ label = "\'[=]\'", fontsize = 25  ];
